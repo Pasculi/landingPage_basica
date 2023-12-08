@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato',
+sans-serif;
+}
+.background{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border:1px solid transparent; /* Colapso de margenes */
+  
+}
+.section1{
+  
+  background-image: linear-gradient(to right, #33c9f762, #831afc73), url(img/laptop.jpg);
+}
+.section1 h2{
+  text-align: center;
+  color:#fff;
+  background: #000;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  line-height: 100px;
+  margin-top: calc(50vh - 50px);
+}
+.text{
+  width: 100%;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.text p{
+  padding: 20px 0;
+}
+.section2{
+  height: 600px;
+  background-image: linear-gradient(to right, #240b3685, #c3143181), url(img/programacion.jpg);
+}
+.background h3{
+  color:#fff;
+  font-size: 60px;
+  text-align: center;
+  line-height: 600px;
+}
+.section3{
+  /* background: #373B44; */
+  background-image: linear-gradient(to right, #4286f47a, #373b447c), url(img/escritorio.jpg);
+}
+.section3 h3{
+  line-height: 100vh;
+}
